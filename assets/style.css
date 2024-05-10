@@ -1,0 +1,23 @@
+#cards {
+    display: flex;
+    margin: 25px;
+    justify-content: space-evenly;
+
+}
+
+.card-box {
+    border: solid black 2px;
+    background-color: navy;
+    color: whitesmoke;
+    width: fit-content;
+}
+
+.past-cities {
+    display: block;
+    margin: 20px;
+}
+
+#weather-today {
+    border: solid black 2px;
+    background-color: grey;
+}
