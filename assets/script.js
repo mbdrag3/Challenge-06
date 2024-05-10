@@ -167,6 +167,5 @@ function currentWeatherAPI(latitude, longitude) {
         })
 }
 
-getCitiesLonLat("Miami");
 
 
