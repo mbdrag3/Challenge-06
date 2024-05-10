@@ -107,7 +107,7 @@ function getCitiesLonLat(cityName) {
 
 function currentWeatherAPI(latitude, longitude) {
 
-    const URL = "https:api.openweathermap.org/data/2.5/weather?lat=" + latitude + "&lon=" + longitude + "&appid=" + apiKey + "&units=imperial";
+    const URL = "https://api.openweathermap.org/data/2.5/weather?lat=" + latitude + "&lon=" + longitude + "&appid=" + apiKey + "&units=imperial";
     fetch(URL)
         .then(function (response) {
             return response.json();
@@ -130,7 +130,7 @@ function currentWeatherAPI(latitude, longitude) {
             //clear past data use .empty().append
         })
 
-    const URL2 = "https:api.openweathermap.org/data/2.5/forecast?lat=" + latitude + "&lon=" + longitude + "&appid=" + apiKey + "&units=imperial";
+    const URL2 = "https://api.openweathermap.org/data/2.5/forecast?lat=" + latitude + "&lon=" + longitude + "&appid=" + apiKey + "&units=imperial";
     fetch(URL2)
         .then(function (response) {
             return response.json();
