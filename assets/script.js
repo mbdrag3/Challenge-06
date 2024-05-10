@@ -89,7 +89,7 @@ for (var i = 0; i < 5; i++) {
 
 
 function getCitiesLonLat(cityName) {
-    const URLTest = "http://api.openweathermap.org/geo/1.0/direct?q=" + cityName + "&limit=1&appid=" + apiKey;
+    const URLTest = "https://api.openweathermap.org/geo/1.0/direct?q=" + cityName + "&limit=1&appid=" + apiKey;
     fetch(URLTest)
         .then(function (response) {
             return response.json();
